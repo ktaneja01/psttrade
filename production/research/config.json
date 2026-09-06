@@ -1,0 +1,610 @@
+{
+  "universe": [
+    "AEX_mini",
+    "ALUMINIUM_LME",
+    "AUD_micro",
+    "BITCOIN",
+    "BRE",
+    "BTP",
+    "BUND",
+    "CANOLA",
+    "CHF",
+    "COCOA",
+    "COFFEE",
+    "COPPER-micro",
+    "CORN",
+    "CRUDE_W_micro",
+    "ETHER-micro",
+    "EU-AUTO",
+    "EU-BANKS",
+    "EU-BASIC",
+    "EU-DJ-TELECOM",
+    "EU-HEALTH",
+    "EU-INSURE",
+    "EU-MEDIA",
+    "EU-OIL",
+    "EU-TECH",
+    "EU-TRAVEL",
+    "EUA",
+    "EURCAD",
+    "EUROSTX",
+    "EUROSTX-SMALL",
+    "EUR_micro",
+    "FEEDCOW",
+    "FTSE100",
+    "FTSECHINAA",
+    "GASOIL",
+    "GASOILINE",
+    "GAS_US_mini",
+    "GBP_micro",
+    "GILT",
+    "GOLD_micro",
+    "HANG_mini",
+    "HEATOIL",
+    "IG",
+    "IRON",
+    "JPY",
+    "LEANHOG",
+    "LIVECOW",
+    "MSCISING",
+    "MXP",
+    "NIKKEI",
+    "NOK",
+    "NZD",
+    "OJ",
+    "PALLAD",
+    "PLAT",
+    "REDWHEAT",
+    "RICE",
+    "ROBUSTA",
+    "RUSSELL",
+    "SEK",
+    "SILVER-mini",
+    "SMI",
+    "SOYBEAN",
+    "SOYMEAL",
+    "SOYOIL",
+    "SP500_micro",
+    "TECDAX",
+    "US-ENERGY",
+    "US-FINANCE",
+    "US-HEALTH",
+    "US-INDUSTRY",
+    "US-MATERIAL",
+    "US-REALESTATE",
+    "US-STAPLES",
+    "US-TECH",
+    "US10",
+    "US30",
+    "VIX",
+    "WHEAT",
+    "ZAR",
+    "ZINC_LME",
+    "BUXL",
+    "DAX",
+    "DX",
+    "SUGAR11",
+    "V2X",
+    "SPI200",
+    "RUBBER",
+    "CADJPY",
+    "EURCHF",
+    "GBPEUR",
+    "YENEUR",
+    "PLN",
+    "CZK",
+    "SWISSLEAD",
+    "US-PROPERTY",
+    "COAL-GEORDIE",
+    "EU-DJ-OIL",
+    "GAS-LAST",
+    "GAS-PEN",
+    "HIGHYIELD",
+    "SONIA3",
+    "EURIBOR",
+    "FED",
+    "US2",
+    "US3",
+    "US5",
+    "SHATZ",
+    "BOBL",
+    "BTP3",
+    "EURIBOR-ICE",
+    "CH10",
+    "JGB",
+    "JGB-SGX-mini",
+    "CAD2",
+    "CAD5",
+    "CAD10",
+    "INR"
+  ],
+  "window": {
+    "data_start_year": 2017,
+    "backtest_start": "2019-01-01",
+    "cutoff": "2026-06-30"
+  },
+  "vendor_plan": {
+    "AEX_mini": {
+      "vendor": "BC",
+      "source_code": "AEX"
+    },
+    "ALUMINIUM_LME": {
+      "vendor": "BC",
+      "source_code": "ALUMINIUM_LME"
+    },
+    "AUD_micro": {
+      "vendor": "DB",
+      "source_code": "AUD"
+    },
+    "BITCOIN": {
+      "vendor": "DB",
+      "source_code": "BITCOIN"
+    },
+    "BRE": {
+      "vendor": "BC",
+      "source_code": "BRE"
+    },
+    "BTP": {
+      "vendor": "BC",
+      "source_code": "BTP"
+    },
+    "BUND": {
+      "vendor": "BC",
+      "source_code": "BUND"
+    },
+    "CANOLA": {
+      "vendor": "BC",
+      "source_code": "CANOLA"
+    },
+    "CHF": {
+      "vendor": "DB",
+      "source_code": "CHF"
+    },
+    "COCOA": {
+      "vendor": "BC",
+      "source_code": "COCOA"
+    },
+    "COFFEE": {
+      "vendor": "BC",
+      "source_code": "COFFEE"
+    },
+    "COPPER-micro": {
+      "vendor": "DB",
+      "source_code": "COPPER-micro"
+    },
+    "CORN": {
+      "vendor": "DB",
+      "source_code": "CORN"
+    },
+    "CRUDE_W_micro": {
+      "vendor": "DB",
+      "source_code": "CRUDE_W_micro"
+    },
+    "ETHER-micro": {
+      "vendor": "DB",
+      "source_code": "ETHEREUM"
+    },
+    "EU-AUTO": {
+      "vendor": "BC",
+      "source_code": "EU-AUTO"
+    },
+    "EU-BANKS": {
+      "vendor": "BC",
+      "source_code": "EU-BANKS"
+    },
+    "EU-BASIC": {
+      "vendor": "BC",
+      "source_code": "EU-BASIC"
+    },
+    "EU-DJ-TELECOM": {
+      "vendor": "BC",
+      "source_code": "EU-DJ-TELECOM"
+    },
+    "EU-HEALTH": {
+      "vendor": "BC",
+      "source_code": "EU-HEALTH"
+    },
+    "EU-INSURE": {
+      "vendor": "BC",
+      "source_code": "EU-INSURE"
+    },
+    "EU-MEDIA": {
+      "vendor": "BC",
+      "source_code": "EU-MEDIA"
+    },
+    "EU-OIL": {
+      "vendor": "BC",
+      "source_code": "EU-OIL"
+    },
+    "EU-TECH": {
+      "vendor": "BC",
+      "source_code": "EU-TECH"
+    },
+    "EU-TRAVEL": {
+      "vendor": "BC",
+      "source_code": "EU-TRAVEL"
+    },
+    "EUA": {
+      "vendor": "BC",
+      "source_code": "EUA"
+    },
+    "EURCAD": {
+      "vendor": "BC",
+      "source_code": "EURCAD"
+    },
+    "EUROSTX": {
+      "vendor": "BC",
+      "source_code": "EUROSTX"
+    },
+    "EUROSTX-SMALL": {
+      "vendor": "BC",
+      "source_code": "EUROSTX-SMALL"
+    },
+    "EUR_micro": {
+      "vendor": "DB",
+      "source_code": "EUR"
+    },
+    "FEEDCOW": {
+      "vendor": "DB",
+      "source_code": "FEEDCOW"
+    },
+    "FTSE100": {
+      "vendor": "BC",
+      "source_code": "FTSE100"
+    },
+    "FTSECHINAA": {
+      "vendor": "BC",
+      "source_code": "FTSECHINAA"
+    },
+    "GASOIL": {
+      "vendor": "BC",
+      "source_code": "GASOIL"
+    },
+    "GASOILINE": {
+      "vendor": "BC",
+      "source_code": "GASOILINE"
+    },
+    "GAS_US_mini": {
+      "vendor": "DB",
+      "source_code": "GAS_US_mini"
+    },
+    "GBP_micro": {
+      "vendor": "DB",
+      "source_code": "GBP"
+    },
+    "GILT": {
+      "vendor": "BC",
+      "source_code": "GILT"
+    },
+    "GOLD_micro": {
+      "vendor": "BC",
+      "source_code": "GOLD_micro"
+    },
+    "HANG_mini": {
+      "vendor": "BC",
+      "source_code": "HANG"
+    },
+    "HEATOIL": {
+      "vendor": "BC",
+      "source_code": "HEATOIL"
+    },
+    "IG": {
+      "vendor": "BC",
+      "source_code": "IG"
+    },
+    "IRON": {
+      "vendor": "BC",
+      "source_code": "IRON"
+    },
+    "JPY": {
+      "vendor": "DB",
+      "source_code": "JPY"
+    },
+    "LEANHOG": {
+      "vendor": "DB",
+      "source_code": "LEANHOG"
+    },
+    "LIVECOW": {
+      "vendor": "DB",
+      "source_code": "LIVECOW"
+    },
+    "MSCISING": {
+      "vendor": "BC",
+      "source_code": "MSCISING"
+    },
+    "MXP": {
+      "vendor": "DB",
+      "source_code": "MXP"
+    },
+    "NIKKEI": {
+      "vendor": "DB",
+      "source_code": "NIKKEI"
+    },
+    "NOK": {
+      "vendor": "BC",
+      "source_code": "NOK"
+    },
+    "NZD": {
+      "vendor": "DB",
+      "source_code": "NZD"
+    },
+    "OJ": {
+      "vendor": "BC",
+      "source_code": "OJ"
+    },
+    "PALLAD": {
+      "vendor": "BC",
+      "source_code": "PALLAD"
+    },
+    "PLAT": {
+      "vendor": "BC",
+      "source_code": "PLAT"
+    },
+    "REDWHEAT": {
+      "vendor": "DB",
+      "source_code": "REDWHEAT"
+    },
+    "RICE": {
+      "vendor": "BC",
+      "source_code": "RICE"
+    },
+    "ROBUSTA": {
+      "vendor": "BC",
+      "source_code": "ROBUSTA"
+    },
+    "RUSSELL": {
+      "vendor": "DB",
+      "source_code": "RUSSELL"
+    },
+    "SEK": {
+      "vendor": "BC",
+      "source_code": "SEK"
+    },
+    "SILVER-mini": {
+      "vendor": "BC",
+      "source_code": "SILVER-mini"
+    },
+    "SMI": {
+      "vendor": "BC",
+      "source_code": "SMI"
+    },
+    "SOYBEAN": {
+      "vendor": "DB",
+      "source_code": "SOYBEAN"
+    },
+    "SOYMEAL": {
+      "vendor": "DB",
+      "source_code": "SOYMEAL"
+    },
+    "SOYOIL": {
+      "vendor": "DB",
+      "source_code": "SOYOIL"
+    },
+    "SP500_micro": {
+      "vendor": "DB",
+      "source_code": "SP500"
+    },
+    "TECDAX": {
+      "vendor": "BC",
+      "source_code": "TECDAX"
+    },
+    "US-ENERGY": {
+      "vendor": "BC",
+      "source_code": "US-ENERGY"
+    },
+    "US-FINANCE": {
+      "vendor": "BC",
+      "source_code": "US-FINANCE"
+    },
+    "US-HEALTH": {
+      "vendor": "BC",
+      "source_code": "US-HEALTH"
+    },
+    "US-INDUSTRY": {
+      "vendor": "BC",
+      "source_code": "US-INDUSTRY"
+    },
+    "US-MATERIAL": {
+      "vendor": "BC",
+      "source_code": "US-MATERIAL"
+    },
+    "US-REALESTATE": {
+      "vendor": "BC",
+      "source_code": "US-REALESTATE"
+    },
+    "US-STAPLES": {
+      "vendor": "BC",
+      "source_code": "US-STAPLES"
+    },
+    "US-TECH": {
+      "vendor": "BC",
+      "source_code": "US-TECH"
+    },
+    "US10": {
+      "vendor": "DB",
+      "source_code": "US10"
+    },
+    "US30": {
+      "vendor": "DB",
+      "source_code": "US30"
+    },
+    "VIX": {
+      "vendor": "BC",
+      "source_code": "VIX"
+    },
+    "WHEAT": {
+      "vendor": "DB",
+      "source_code": "WHEAT"
+    },
+    "ZAR": {
+      "vendor": "DB",
+      "source_code": "ZAR"
+    },
+    "ZINC_LME": {
+      "vendor": "BC",
+      "source_code": "ZINC_LME"
+    },
+    "BUXL": {
+      "vendor": "BC",
+      "source_code": "BUXL"
+    },
+    "DAX": {
+      "vendor": "BC",
+      "source_code": "DAX"
+    },
+    "DX": {
+      "vendor": "BC",
+      "source_code": "DX"
+    },
+    "SUGAR11": {
+      "vendor": "BC",
+      "source_code": "SUGAR11"
+    },
+    "V2X": {
+      "vendor": "BC",
+      "source_code": "V2X"
+    },
+    "SPI200": {
+      "vendor": "BC",
+      "source_code": "SPI200"
+    },
+    "RUBBER": {
+      "vendor": "BC",
+      "source_code": "RUBBER"
+    },
+    "CADJPY": {
+      "vendor": "BC",
+      "source_code": "CADJPY"
+    },
+    "EURCHF": {
+      "vendor": "BC",
+      "source_code": "EURCHF"
+    },
+    "GBPEUR": {
+      "vendor": "BC",
+      "source_code": "GBPEUR"
+    },
+    "YENEUR": {
+      "vendor": "BC",
+      "source_code": "YENEUR"
+    },
+    "PLN": {
+      "vendor": "BC",
+      "source_code": "PLN"
+    },
+    "CZK": {
+      "vendor": "BC",
+      "source_code": "CZK"
+    },
+    "SWISSLEAD": {
+      "vendor": "BC",
+      "source_code": "SWISSLEAD"
+    },
+    "US-PROPERTY": {
+      "vendor": "BC",
+      "source_code": "US-PROPERTY"
+    },
+    "COAL-GEORDIE": {
+      "vendor": "BC",
+      "source_code": "COAL-GEORDIE"
+    },
+    "EU-DJ-OIL": {
+      "vendor": "BC",
+      "source_code": "EU-DJ-OIL"
+    },
+    "GAS-LAST": {
+      "vendor": "BC",
+      "source_code": "GAS-LAST"
+    },
+    "GAS-PEN": {
+      "vendor": "BC",
+      "source_code": "GAS-PEN"
+    },
+    "HIGHYIELD": {
+      "vendor": "BC",
+      "source_code": "HIGHYIELD",
+      "start_year_override": 2022
+    },
+    "SONIA3": {
+      "vendor": "BC",
+      "source_code": "SONIA3"
+    },
+    "EURIBOR": {
+      "vendor": "BC",
+      "source_code": "EURIBOR"
+    },
+    "FED": {
+      "vendor": "BC",
+      "source_code": "FED"
+    },
+    "US2": {
+      "vendor": "BC",
+      "source_code": "US2"
+    },
+    "US3": {
+      "vendor": "BC",
+      "source_code": "US3"
+    },
+    "US5": {
+      "vendor": "BC",
+      "source_code": "US5"
+    },
+    "SHATZ": {
+      "vendor": "BC",
+      "source_code": "SHATZ"
+    },
+    "BOBL": {
+      "vendor": "BC",
+      "source_code": "BOBL"
+    },
+    "BTP3": {
+      "vendor": "BC",
+      "source_code": "BTP3"
+    },
+    "EURIBOR-ICE": {
+      "vendor": "BC",
+      "source_code": "EURIBOR-ICE"
+    },
+    "CH10": {
+      "vendor": "BC",
+      "source_code": "CH10"
+    },
+    "JGB": {
+      "vendor": "BC",
+      "source_code": "JGB"
+    },
+    "JGB-SGX-mini": {
+      "vendor": "BC",
+      "source_code": "JGB-SGX-mini"
+    },
+    "CAD2": {
+      "vendor": "BC",
+      "source_code": "CAD2"
+    },
+    "CAD5": {
+      "vendor": "BC",
+      "source_code": "CAD5"
+    },
+    "CAD10": {
+      "vendor": "BC",
+      "source_code": "CAD10"
+    },
+    "INR": {
+      "vendor": "BC",
+      "source_code": "INR"
+    }
+  },
+  "loader": {
+    "date_index": "Time",
+    "date_format": "%Y-%m-%dT%H:%M:%S",
+    "column_map": {
+      "OPEN": "Open",
+      "HIGH": "High",
+      "LOW": "Low",
+      "FINAL": "Latest",
+      "VOLUME": "Volume"
+    },
+    "tz_strip": "+0000"
+  },
+  "notes": "PLN dropped (no raw vendor source). CORN 2021-12 annual-roll has a minor self-reversing blip (thin new-crop overlap). | 2026-09: +7 Barchart breadth (BUXL,DAX,DX,SUGAR11,V2X,SPI200,RUBBER) via core-api fetch; universe 80->87. | 2026-09: 7 migrated DB->BC (BRE,PLAT,GASOILINE,HEATOIL,RICE,SILVER-mini,PALLAD) via patched bc-utils core-api; full 2014-2026 history. | 2026-09: +9 FX crosses (AUDJPY,CADJPY,CHFJPY,EURAUD,EURCHF,GBPEUR,YENEUR,PLN,CZK) via core-api; 87->96. | dropped stalled thin crosses ['AUDJPY', 'CHFJPY', 'EURAUD'] (roll won't complete); kept 6 usable FX crosses. 96->93. | cutoff 2025-12-31->2026-06-30; EURCAD DB->BC; seed extended to Jun-2026 (BC live + DB to Aug). | 2026-09: +29 rate/energy/metal candidates for evaluation (research branch). | dropped 12 stalled/errored candidates (thin-contract roll fail): ['COPPER_LME', 'LEAD_LME', 'NICKEL_LME', 'TIN_LME', 'BB3M', 'CAD10', 'CAD2', 'HIGHYIELD', 'BRENT', 'COAL', 'GAS_NL', 'SOFR']. Kept 17 usable. | vol-floor screen: dropped 7 sub-5% rates ['CH10', 'JGB-SGX-mini', 'JGB', 'CAD5', 'SONIA3', 'FED', 'EURIBOR-ICE']. Kept 10 candidates (9 energy/metal/equity + IRS). | dropped ['IRS', 'GAS_UK', 'CRUDE_ICE']: IRS decimal-price sizing bomb (mislabeled shekel), GAS_UK $2.3M notional untradeable @500K, CRUDE_ICE negative prices. Kept 7 clean candidates. | dropped ALUMINIUM: 2018 flat/stale patch (251/252 days flat) -> vol->0 -> trillion-contract sizing blowup. Kept 6 clean candidates. | re-added 7 (ALUMINIUM,COPPER_LME,LEAD_LME,NICKEL_LME,TIN_LME,BRENT,COAL) with start_year_override=2020 (skip illiquid early contracts; recent data clean/liquid). | re-DROPPED 7: Barchart core-api returned BLOB contracts (median 1000-3400d span, not individual expiries) -> roll uncomputable. Was mis-diagnosed as early-illiquidity; actually bad per-contract data. Back to clean 99. | HIGHYIELD (Cboe iBoxx HY credit, CFE) re-added with start_year_override=2022 (pre-2022 blobbed; clean post-2022). HY credit = unique factor vs IG. | removed HIGHYIELD: untradeable @500K (1 contract=36.7% of capital vs 2.5% target -> holds 0) AND redundant (0.7 corr to held US-cyclical equity + IG). Back to 99. | HIGHYIELD re-included: optimiser assigns it weight (wants risk in HY direction); trust dyn-opt to size it. Not selected on backtest SR. | STIRs ['SOFR', 'SONIA3', 'EURIBOR', 'FED'] re-added to TEST: capital math shows tradeable @500K (IDM+sizer compensate ~1% vol). Empirical test vs 5%-floor heuristic exclusion."
+}

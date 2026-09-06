@@ -1,0 +1,894 @@
+********************************************************************************
+Email stored not sent on 2026-08-28 14:38:16.641869: Price Spike SP500_micro
+
+Spike found in prices for SP500_micro/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 14:38:19.528601: Price Spike EU-BANKS
+
+Spike found in prices for EU-BANKS/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:39:01.708651: Price Spike AUD_micro
+
+Spike found in prices for AUD_micro/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:39:06.973378: Price Spike BITCOIN
+
+Spike found in prices for BITCOIN/20260800: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:39:09.509721: Price Spike BITCOIN
+
+Spike found in prices for BITCOIN/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:39:39.523293: Price Spike CHF
+
+Spike found in prices for CHF/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:39:53.074615: Price Spike COCOA
+
+Spike found in prices for COCOA/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:39:55.797418: Price Spike COCOA
+
+Spike found in prices for COCOA/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:40:12.560868: Price Spike COPPER-micro
+
+Spike found in prices for COPPER-micro/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:40:30.310903: Price Spike CORN
+
+Spike found in prices for CORN/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:40:33.050199: Price Spike CORN
+
+Spike found in prices for CORN/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:40:35.853716: Price Spike CORN
+
+Spike found in prices for CORN/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:40:44.078712: Price Spike CORN
+
+Spike found in prices for CORN/20270900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:40:46.861823: Price Spike CORN
+
+Spike found in prices for CORN/20271200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:40:52.256634: Price Spike CORN
+
+Spike found in prices for CORN/20280500: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:41:03.039297: Price Spike CORN
+
+Spike found in prices for CORN/20280900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:41:08.550456: Price Spike CRUDE_W_micro
+
+Spike found in prices for CRUDE_W_micro/20261000: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:41:14.045727: Price Spike CRUDE_W_micro
+
+Spike found in prices for CRUDE_W_micro/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:41:22.553428: Price Spike ETHER-micro
+
+Spike found in prices for ETHER-micro/20260800: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:41:25.031278: Price Spike ETHER-micro
+
+Spike found in prices for ETHER-micro/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:41:38.145151: Price Spike EU-BANKS
+
+Spike found in prices for EU-BANKS/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:41:48.848736: Price Spike EU-DJ-TELECOM
+
+Spike found in prices for EU-DJ-TELECOM/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:41:50.116639: Price Spike EU-DJ-TELECOM
+
+Spike found in prices for EU-DJ-TELECOM/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:42:36.562095: Price Spike EUROSTX
+
+Spike found in prices for EUROSTX/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:42:52.021796: Price Spike EUR_micro
+
+Spike found in prices for EUR_micro/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:42:54.653214: Price Spike FEEDCOW
+
+Spike found in prices for FEEDCOW/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:42:57.339517: Price Spike FEEDCOW
+
+Spike found in prices for FEEDCOW/20261000: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:43:00.041537: Price Spike FEEDCOW
+
+Spike found in prices for FEEDCOW/20261100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:43:02.772097: Price Spike FEEDCOW
+
+Spike found in prices for FEEDCOW/20270100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:43:46.279389: Price Spike GILT
+
+Spike found in prices for GILT/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:43:52.123754: Price Spike GOLD_micro
+
+Spike found in prices for GOLD_micro/20261000: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:43:54.939034: Price Spike GOLD_micro
+
+Spike found in prices for GOLD_micro/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:43:58.771268: Price Spike GOLD_micro
+
+Spike found in prices for GOLD_micro/20270200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:44:17.422713: Price Spike IRON
+
+Spike found in prices for IRON/20270100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:44:19.662585: Price Spike JPY
+
+Spike found in prices for JPY/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:44:21.091442: Price Spike JPY
+
+Spike found in prices for JPY/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:44:42.329956: Price Spike LIVECOW
+
+Spike found in prices for LIVECOW/20260800: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:44:43.688043: Price Spike LIVECOW
+
+Spike found in prices for LIVECOW/20260800: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:44:47.905832: Price Spike LIVECOW
+
+Spike found in prices for LIVECOW/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:44:49.311212: Price Spike LIVECOW
+
+Spike found in prices for LIVECOW/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:44:56.090267: Price Spike MSCISING
+
+Spike found in prices for MSCISING/20260800: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:45:01.860630: Price Spike MXP
+
+Spike found in prices for MXP/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:45:11.552634: Price Spike NIKKEI
+
+Spike found in prices for NIKKEI/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:45:13.356823: Price Spike NIKKEI
+
+Spike found in prices for NIKKEI/20261000: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:45:17.038690: Price Spike NIKKEI
+
+Spike found in prices for NIKKEI/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:45:26.487546: Price Spike NZD
+
+Spike found in prices for NZD/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:45:28.982077: Price Spike NZD
+
+Spike found in prices for NZD/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:45:50.667954: Price Spike REDWHEAT
+
+Spike found in prices for REDWHEAT/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:45:52.017277: Price Spike REDWHEAT
+
+Spike found in prices for REDWHEAT/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:45:56.575365: Price Spike REDWHEAT
+
+Spike found in prices for REDWHEAT/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:02.009737: Price Spike REDWHEAT
+
+Spike found in prices for REDWHEAT/20270700: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:13.660264: Price Spike RUSSELL
+
+Spike found in prices for RUSSELL/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:24.022880: Price Spike SEK
+
+Spike found in prices for SEK/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:31.953213: Price Spike SMI
+
+Spike found in prices for SMI/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:37.489708: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:40.248942: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20261100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:41.588254: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20261100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:42.859412: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:44.208429: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:45.594435: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:46.940088: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:48.322500: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270500: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:51.044026: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270700: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:46:56.491667: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:04.696592: Price Spike SOYMEAL
+
+Spike found in prices for SOYMEAL/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:07.367173: Price Spike SOYMEAL
+
+Spike found in prices for SOYMEAL/20261000: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:10.093855: Price Spike SOYMEAL
+
+Spike found in prices for SOYMEAL/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:12.818592: Price Spike SOYMEAL
+
+Spike found in prices for SOYMEAL/20270100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:15.550852: Price Spike SOYMEAL
+
+Spike found in prices for SOYMEAL/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:22.989179: Price Spike SOYMEAL
+
+Spike found in prices for SOYMEAL/20270500: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:30.433876: Price Spike SOYOIL
+
+Spike found in prices for SOYOIL/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:33.209882: Price Spike SOYOIL
+
+Spike found in prices for SOYOIL/20261000: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:35.918916: Price Spike SOYOIL
+
+Spike found in prices for SOYOIL/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:38.686150: Price Spike SOYOIL
+
+Spike found in prices for SOYOIL/20270100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:41.506394: Price Spike SOYOIL
+
+Spike found in prices for SOYOIL/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:44.350504: Price Spike SOYOIL
+
+Spike found in prices for SOYOIL/20270500: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:47:50.288689: Price Spike SP500_micro
+
+Spike found in prices for SP500_micro/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:48:34.196814: Price Spike US-TECH
+
+Spike found in prices for US-TECH/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:48:47.046253: Price Spike US30
+
+Spike found in prices for US30/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:49:10.162112: Price Spike WHEAT
+
+Spike found in prices for WHEAT/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:49:12.917625: Price Spike WHEAT
+
+Spike found in prices for WHEAT/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 15:49:23.352609: Price Spike ZINC_LME
+
+Spike found in prices for ZINC_LME/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 20:20:48.677695: Price Spike BRE
+
+Spike found in prices for BRE/20260831: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 20:20:51.196148: Price Spike BRE
+
+Spike found in prices for BRE/20260930: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 20:24:07.680817: Price Spike BRE
+
+Spike found in prices for BRE/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-28 20:24:10.094019: Price Spike BRE
+
+Spike found in prices for BRE/20261000: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:39:51.765127: Price Spike CANOLA
+
+Spike found in prices for CANOLA/20261100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:40:36.486434: Price Spike EU-BANKS
+
+Spike found in prices for EU-BANKS/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:40:38.882407: Price Spike EU-BANKS
+
+Spike found in prices for EU-BANKS/20260918: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:41:02.445013: Price Spike EU-DJ-TELECOM
+
+Spike found in prices for EU-DJ-TELECOM/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:41:03.478230: Price Spike EU-DJ-TELECOM
+
+Spike found in prices for EU-DJ-TELECOM/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:41:28.024648: Price Spike EU-INSURE
+
+Spike found in prices for EU-INSURE/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:41:54.899546: Price Spike EU-OIL
+
+Spike found in prices for EU-OIL/20260918: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:43:27.609928: Price Spike GASOILINE
+
+Spike found in prices for GASOILINE/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:44:49.827118: Price Spike GASOILINE
+
+Spike found in prices for GASOILINE/20271200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:02.851104: Price Spike JPY
+
+Spike found in prices for JPY/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:04.849325: Price Spike JPY
+
+Spike found in prices for JPY/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:07.771935: Price Spike JPY
+
+Spike found in prices for JPY/20260914: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:10.649569: Price Spike JPY
+
+Spike found in prices for JPY/20261019: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:13.604065: Price Spike JPY
+
+Spike found in prices for JPY/20261116: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:25.817813: Price Spike JPY
+
+Spike found in prices for JPY/20261214: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:28.405115: Price Spike JPY
+
+Spike found in prices for JPY/20270115: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:30.987281: Price Spike JPY
+
+Spike found in prices for JPY/20270212: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:36.931583: Price Spike JPY
+
+Spike found in prices for JPY/20270315: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:39.534433: Price Spike JPY
+
+Spike found in prices for JPY/20270419: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:42.670030: Price Spike LIVECOW
+
+Spike found in prices for LIVECOW/20260800: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:44.253501: Price Spike LIVECOW
+
+Spike found in prices for LIVECOW/20260800: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:54.915128: Price Spike LIVECOW
+
+Spike found in prices for LIVECOW/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:48:57.200642: Price Spike LIVECOW
+
+Spike found in prices for LIVECOW/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:49:14.464379: Price Spike LIVECOW
+
+Spike found in prices for LIVECOW/20270630: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:49:24.059848: Price Spike NOK
+
+Spike found in prices for NOK/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:49:26.954152: Price Spike NOK
+
+Spike found in prices for NOK/20260914: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:50:01.385093: Price Spike PLAT
+
+Spike found in prices for PLAT/20261000: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:50:06.286209: Price Spike PLAT
+
+Spike found in prices for PLAT/20261028: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:50:10.367276: Price Spike PLAT
+
+Spike found in prices for PLAT/20270100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:50:15.499301: Price Spike PLAT
+
+Spike found in prices for PLAT/20270127: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:50:21.331407: Price Spike PLAT
+
+Spike found in prices for PLAT/20270428: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:50:27.471862: Price Spike PLAT
+
+Spike found in prices for PLAT/20270728: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:50:33.321032: Price Spike PLAT
+
+Spike found in prices for PLAT/20271027: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:51:07.140489: Price Spike RICE
+
+Spike found in prices for RICE/20270114: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:51:24.385603: Price Spike SEK
+
+Spike found in prices for SEK/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:51:27.135123: Price Spike SEK
+
+Spike found in prices for SEK/20260914: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:51:46.576757: Price Spike SILVER-mini
+
+Spike found in prices for SILVER-mini/20260827: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:51:47.994146: Price Spike SILVER-mini
+
+Spike found in prices for SILVER-mini/20260827: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:51:50.954414: Price Spike SILVER-mini
+
+Spike found in prices for SILVER-mini/20261125: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:51:53.929212: Price Spike SILVER-mini
+
+Spike found in prices for SILVER-mini/20261229: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:51:56.889036: Price Spike SILVER-mini
+
+Spike found in prices for SILVER-mini/20270224: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:51:59.522489: Price Spike SILVER-mini
+
+Spike found in prices for SILVER-mini/20270428: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:02.256300: Price Spike SILVER-mini
+
+Spike found in prices for SILVER-mini/20270628: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:04.947438: Price Spike SILVER-mini
+
+Spike found in prices for SILVER-mini/20270827: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:41.565949: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20260900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:44.688219: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20260914: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:48.484933: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20261100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:49.905622: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20261100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:51.650689: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20261113: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:54.562690: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:56.075091: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270100: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:52:57.569131: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270114: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:53:00.530752: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:53:01.846816: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:53:13.144813: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270700: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:53:16.453379: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270714: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:53:25.649730: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270900: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:53:28.733031: Price Spike SOYBEAN
+
+Spike found in prices for SOYBEAN/20270914: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 09:53:51.684004: Price Spike SP500_micro
+
+Spike found in prices for SP500_micro/20261200: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 10:31:48.567774: Price Spike WHEAT
+
+Spike found in prices for WHEAT/20261214: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 10:31:51.260252: Price Spike WHEAT
+
+Spike found in prices for WHEAT/20270300: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 10:31:54.252823: Price Spike WHEAT
+
+Spike found in prices for WHEAT/20270312: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+
+********************************************************************************
+Email stored not sent on 2026-08-29 10:31:57.528474: Price Spike WHEAT
+
+Spike found in prices for WHEAT/20270514: need to manually check by running interactive_manual_check_historical_prices
+********************************************************************************
+

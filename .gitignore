@@ -1,0 +1,59 @@
+.cache
+__pycache__
+*.egg-info
+.ipynb_checkpoints
+*.pyc
+*.pyo
+.tox
+dist
+build
+private
+restats
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# editor 
+.idea
+.project
+.pydevproject
+
+# pyenv
+.python-version
+
+# venv
+env/
+venv/
+
+# libreoffice
+.~lock.*
+
+# Databento API key (local secret, never commit)
+.databento.env
+
+# Production branch data stores (derived/regenerable — NOT source of truth).
+# Source of truth = vendor lakes (~/data/barchart, data/databento/hourly).
+# These are rebuilt by 01_stage_raw / 02_curate / 02_build.
+production/*/data/raw/
+production/*/data/curated_rolladjusted/
+production/*/roll_calendars/
+# keep config.json, *.py, artifacts/, README/RUNBOOK tracked
+
+# --- ktaneja01/psttrade: price data lives in S3, not git (config CSVs stay) ---
+data/futures/adjusted_prices_csv/
+data/futures/multiple_prices_csv/
+data/futures/fx_prices_csv/
+data/test/adjusted_prices_csv/
+~/.github_psttrade_token
+.github_psttrade_token
+pst-env/
+.venv/
+data/databento/
+production/candidates/
+production/*/data/
+*.bak
+config.json.bak
+*.pck
+production/ibkr/_snapshots/
+*.tgz

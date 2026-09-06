@@ -1,0 +1,190 @@
+{
+  "AEX_mini": "ERR:Can't stitch an empty multiple prices object",
+  "ALUMINIUM_LME": [
+    "2026-08-03",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "AUD_micro": "ERR:Error! Empty roll calendar after adjustment! Most likely cor",
+  "BITCOIN": [
+    "2026-08-25",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "BRE": [
+    "2026-08-14",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "BTP": "ERR:Can't stitch an empty multiple prices object",
+  "BUND": "ERR:Can't stitch an empty multiple prices object",
+  "CANOLA": "ERR:Can't stitch an empty multiple prices object",
+  "CHF": "ERR:Can't stitch an empty multiple prices object",
+  "COCOA": "ERR:Can't stitch an empty multiple prices object",
+  "COFFEE": "ERR:Can't stitch an empty multiple prices object",
+  "COPPER-micro": [
+    "2026-07-20",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "CORN": "ERR:'current_roll_date'",
+  "CRUDE_W_micro": [
+    "2026-08-12",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "ETHER-micro": [
+    "2026-08-12",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "EU-AUTO": "ERR:Can't stitch an empty multiple prices object",
+  "EU-BANKS": "ERR:Can't stitch an empty multiple prices object",
+  "EU-BASIC": "ERR:Can't stitch an empty multiple prices object",
+  "EU-DJ-TELECOM": "ERR:Can't stitch an empty multiple prices object",
+  "EU-HEALTH": "ERR:Can't stitch an empty multiple prices object",
+  "EU-INSURE": "ERR:Can't stitch an empty multiple prices object",
+  "EU-MEDIA": "ERR:Can't stitch an empty multiple prices object",
+  "EU-OIL": "ERR:Can't stitch an empty multiple prices object",
+  "EU-TECH": "ERR:Can't stitch an empty multiple prices object",
+  "EU-TRAVEL": "ERR:Can't stitch an empty multiple prices object",
+  "EUA": "ERR:'current_roll_date'",
+  "EURCAD": "ERR:Can't stitch an empty multiple prices object",
+  "EUROSTX": "ERR:Can't stitch an empty multiple prices object",
+  "EUROSTX-SMALL": "ERR:Can't stitch an empty multiple prices object",
+  "EUR_micro": "ERR:Error! Empty roll calendar after adjustment! Most likely cor",
+  "FEEDCOW": [
+    "2026-06-22",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "FTSE100": [
+    "2026-08-20",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "FTSECHINAA": [
+    "2026-08-07",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "GASOIL": [
+    "2026-08-17",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "GASOILINE": [
+    "2026-07-20",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "GAS_US_mini": [
+    "2026-08-25",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "GBP_micro": "ERR:Error! Empty roll calendar after adjustment! Most likely cor",
+  "GILT": "ERR:Can't stitch an empty multiple prices object",
+  "GOLD_micro": [
+    "2026-07-20",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "HANG_mini": [
+    "2026-08-20",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "HEATOIL": [
+    "2026-07-20",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "IG": "ERR:Can't stitch an empty multiple prices object",
+  "IRON": [
+    "2026-07-31",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "JPY": "ERR:Can't stitch an empty multiple prices object",
+  "LEANHOG": "ERR:Can't stitch an empty multiple prices object",
+  "LIVECOW": "ERR:Can't stitch an empty multiple prices object",
+  "MSCISING": [
+    "2026-08-25",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "MXP": "ERR:Can't stitch an empty multiple prices object",
+  "NIKKEI": "ERR:Error! Empty roll calendar after adjustment! Most likely cor",
+  "NOK": "ERR:Can't stitch an empty multiple prices object",
+  "NZD": "ERR:Can't stitch an empty multiple prices object",
+  "OJ": [
+    "2026-08-03",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "PALLAD": [
+    "2026-07-29",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "PLAT": [
+    "2026-07-29",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "REDWHEAT": "ERR:Can't stitch an empty multiple prices object",
+  "RICE": [
+    "2026-08-18",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "ROBUSTA": "ERR:Can't stitch an empty multiple prices object",
+  "RUSSELL": "ERR:Can't stitch an empty multiple prices object",
+  "SEK": "ERR:Can't stitch an empty multiple prices object",
+  "SILVER-mini": "ERR:Can't find any valid starting contract!",
+  "SMI": "ERR:Can't stitch an empty multiple prices object",
+  "SOYBEAN": "ERR:'current_roll_date'",
+  "SOYMEAL": [
+    "2026-07-20",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "SOYOIL": [
+    "2026-07-20",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "SP500_micro": "ERR:Can't stitch an empty multiple prices object",
+  "TECDAX": "ERR:Can't stitch an empty multiple prices object",
+  "US-ENERGY": "ERR:Can't stitch an empty multiple prices object",
+  "US-FINANCE": "ERR:Can't stitch an empty multiple prices object",
+  "US-HEALTH": "ERR:Can't stitch an empty multiple prices object",
+  "US-INDUSTRY": "ERR:Can't stitch an empty multiple prices object",
+  "US-MATERIAL": "ERR:Can't stitch an empty multiple prices object",
+  "US-REALESTATE": "ERR:Can't stitch an empty multiple prices object",
+  "US-STAPLES": "ERR:Can't stitch an empty multiple prices object",
+  "US-TECH": "ERR:Can't stitch an empty multiple prices object",
+  "US10": [
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "US30": [
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "VIX": [
+    "2026-08-25",
+    "2026-08-28",
+    "2026-08-28"
+  ],
+  "WHEAT": "ERR:'current_roll_date'",
+  "ZAR": "ERR:Can't stitch an empty multiple prices object",
+  "ZINC_LME": [
+    "2026-08-03",
+    "2026-08-28",
+    "2026-08-28"
+  ]
+}
