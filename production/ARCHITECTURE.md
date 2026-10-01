@@ -40,8 +40,14 @@ Purpose: the idempotent store the live system makes trade decisions from.
 - Data: **full backtest history (seed) + IBKR live data → today**. Skew (13-month
   lookback) runs off the deep history; trades off the live tail.
 - Roll calendars: **store-local** `live/roll_calendars/`.
-- Build: `01_fetch_ibkr → 02_build (seed+append, append-only) → 03_roll_audit → 04_dq_gate`.
-- Idempotent: re-running `02_build` from the same seed + IB raw reproduces the store.
+- Build (**MIGRATED to stock, 2026-09-24**): the custom `01_fetch_ibkr` /
+  `02_curate_rolladjusted` / `03_append_ib` scripts have been **retired** — they
+  duplicated pysystemtrade's shipped daily price pipeline (proven byte-stable).
+  The live data path is now stock `run_daily_price_updates`
+  (`update_historical_prices` → `update_multiple_adjusted_prices`) with rolls via
+  `interactive_update_roll_status`; QA is the remaining `03_roll_audit → 04_dq_gate`.
+  See `MIGRATION_TO_STOCK.md`. (Retired scripts backed up at
+  `/tmp/retired_live_scripts_2026-09-24/`; also recoverable from git history.)
 
 ## The seam that must never break (append-only)
 `02_build` seeds from the research/backtest curated store (frozen historical rows)
@@ -61,7 +67,24 @@ Roll *status* flags, order stack, position limits live in **MongoDB** via the sh
 reproducible *price* stores. These branches produce the price data + config the
 execution loop consumes.
 
-## Migration from current layout
-- `production/backtest/`  → becomes `production/research/` (rename; it already is the research branch).
-- `production/ibkr/`      → becomes `production/live/` (rename; fix roll-cal isolation + sync universe).
-- `production/candidates/`, `production/ibkr_pipeline/` → legacy, archive/remove.
+## Layout (migration complete, 2026-09)
+- `production/research/` — the research branch (was `production/backtest/`).
+- `production/live/` — the live branch (was `production/ibkr/`; scripts evolved to
+  isolated roll calendars + research seed, and the built 87-instrument IB store +
+  roll calendars were moved in). This is the authoritative live store.
+- Removed as legacy: `production/ibkr/` (superseded by `live/`),
+  `production/ibkr_pipeline/`, `production/candidates/`.
+
+Promotion DONE (2026-09): `live/config.json` universe is **114** = research's 117
+minus the 3 deliberate venue-duplicates (`EURIBOR-ICE`, `JGB`, `PLN`). Frozen
+handcraft weights + forecast scalars are consumed from `production/research/artifacts/`.
+
+Data-currency note (2026-09-19): the 3 livestock instruments (`FEEDCOW`, `LEANHOG`,
+`LIVECOW`) had gone stale at early-2020 in the live store. IB *fetch* was fine (raw
+had data to 2026-09-17); the *append* kept rebuilding from stale 2020
+`futures_contract_prices`. Because `03_append_ib.py` rebuilds adjusted/multiple FROM
+the contract prices and seeds from the live store itself (`SEED = CUR`), a stale
+contract-price seed never self-heals — and re-seeding only the derived adjusted/multiple
+is reverted by the next append. Fix: re-seed `futures_contract_prices` (the SOURCE) from
+`research/`, then run the append → livestock now current to 2026-08-17 (roll frontier).
+Also fixed 19 `currency:"nan"` entries in `ib_contract_map` (from `instrumentconfig.csv`).

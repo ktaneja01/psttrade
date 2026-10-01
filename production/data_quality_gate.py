@@ -112,6 +112,32 @@ def check_series(code):
     _min_end = pd.Timestamp(os.environ.get("DQ_MIN_END", "2026-01-01"))
     if s.index.max() < _min_end:
         issues.append(f"STALE: ends {s.index.max().date()}")
+    # FLAT-TAIL (staleness the end-date check misses): a recent end date but the
+    # value hasn't moved => flat-padded. Uses LAST REAL MOVE, not the last date.
+    _pad_thr = int(os.environ.get("DQ_FLAT_TAIL_DAYS", "5"))
+    lm = s[s.diff() != 0].index.max()
+    if pd.notna(lm):
+        pad = int((s.index > lm).sum())
+        if pad > _pad_thr:
+            issues.append(f"FLAT-TAIL: {pad} biz-days flat @ {s.iloc[-1]:.3f} since last move {lm.date()}")
+    # INTERIOR FLAT-OUTLIER PLATEAU (roll-stitch corruption, CORN/ZINC class):
+    # a run of >=8 identical values that is >5% off the surrounding local median
+    # and not at the series end (that's a flat-tail, handled above).
+    v = s.values; idx = s.index; i = 0
+    while i < len(v):
+        j = i
+        while j + 1 < len(v) and v[j + 1] == v[i]:
+            j += 1
+        rl = j - i + 1
+        if rl >= 8 and j < len(v) - 3:
+            lo = max(0, i - 30); hi = min(len(v), j + 31)
+            local = np.concatenate([v[lo:i], v[j + 1:hi]])
+            if len(local):
+                med = np.median(local)
+                dev = abs(v[i] - med) / med if med else 0.0
+                if dev > 0.05:
+                    issues.append(f"PLATEAU: {rl}d flat @ {v[i]:.2f} ({dev*100:.0f}% off local) {idx[i].date()}..{idx[j].date()}")
+        i = j + 1
     # move magnitude — use ENGINE-CONSISTENT returns (diff/carry_price), not
     # diff/level, so backwardated/near-zero panama series don't false-positive.
     thr = MOVE_THRESH.get(code, DEFAULT_MOVE)

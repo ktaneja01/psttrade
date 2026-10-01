@@ -1,92 +1,119 @@
 {
   "universe": [
-    "AEX_mini",
-    "ALUMINIUM_LME",
-    "AUD_micro",
-    "BITCOIN",
-    "BRE",
-    "BTP",
-    "BUND",
-    "CANOLA",
-    "CHF",
-    "COCOA",
-    "COFFEE",
-    "COPPER-micro",
-    "CORN",
-    "CRUDE_W_micro",
-    "ETHER-micro",
-    "EU-AUTO",
-    "EU-BANKS",
-    "EU-BASIC",
-    "EU-DJ-TELECOM",
-    "EU-HEALTH",
-    "EU-INSURE",
-    "EU-MEDIA",
-    "EU-OIL",
-    "EU-TECH",
-    "EU-TRAVEL",
-    "EUA",
+    "US-ENERGY",
     "EURCAD",
-    "EUROSTX",
-    "EUROSTX-SMALL",
-    "EUR_micro",
-    "FEEDCOW",
-    "FTSE100",
-    "FTSECHINAA",
-    "GASOIL",
-    "GASOILINE",
-    "GAS_US_mini",
-    "GBP_micro",
-    "GILT",
-    "GOLD_micro",
-    "HANG_mini",
-    "HEATOIL",
-    "IG",
-    "IRON",
+    "GBPEUR",
+    "VIX",
+    "DX",
+    "JGB-SGX-mini",
+    "CHF",
     "JPY",
+    "HIGHYIELD",
+    "IG",
+    "EUA",
+    "RICE",
+    "COCOA",
     "LEANHOG",
-    "LIVECOW",
-    "MSCISING",
-    "MXP",
-    "NIKKEI",
-    "NOK",
-    "NZD",
-    "OJ",
+    "BTP3",
+    "BTP",
+    "SUGAR11",
+    "GAS_US_mini",
+    "INR",
     "PALLAD",
     "PLAT",
-    "REDWHEAT",
-    "RICE",
-    "ROBUSTA",
-    "RUSSELL",
-    "SEK",
+    "EU-DJ-TELECOM",
+    "EU-HEALTH",
+    "GOLD_micro",
     "SILVER-mini",
-    "SMI",
+    "EU-OIL",
+    "EU-DJ-OIL",
+    "COAL-GEORDIE",
+    "EURCHF",
+    "OJ",
+    "ROBUSTA",
+    "COFFEE",
+    "LIVECOW",
+    "FEEDCOW",
+    "SOYOIL",
+    "CANOLA",
+    "CORN",
     "SOYBEAN",
     "SOYMEAL",
-    "SOYOIL",
-    "SP500_micro",
-    "TECDAX",
-    "US-ENERGY",
-    "US-FINANCE",
+    "GAS-LAST",
+    "GAS-PEN",
+    "HANG_mini",
+    "GILT",
+    "US3",
+    "GBP_micro",
+    "CRUDE_W_micro",
+    "COPPER-micro",
+    "YENEUR",
+    "CADJPY",
+    "ETHER-micro",
+    "BITCOIN",
+    "BRE",
+    "REDWHEAT",
+    "CH10",
+    "US2",
+    "FED",
+    "US30",
+    "RUBBER",
+    "BUND",
+    "CAD2",
+    "FTSECHINAA",
+    "IRON",
     "US-HEALTH",
+    "US-STAPLES",
+    "EUR_micro",
+    "CZK",
+    "EU-INSURE",
+    "MSCISING",
+    "EU-TRAVEL",
+    "US-REALESTATE",
+    "US-PROPERTY",
+    "GASOILINE",
+    "ZAR",
+    "MXP",
+    "ZINC_LME",
+    "ALUMINIUM_LME",
+    "US5",
+    "US10",
+    "SEK",
+    "NOK",
+    "CAD10",
+    "CAD5",
+    "EU-BASIC",
+    "NZD",
+    "AUD_micro",
+    "NIKKEI",
+    "US-TECH",
+    "GASOIL",
+    "HEATOIL",
+    "EU-BANKS",
+    "EU-AUTO",
+    "SHATZ",
+    "BOBL",
+    "EU-MEDIA",
+    "SPI200",
+    "TECDAX",
+    "EU-TECH",
+    "FTSE100",
+    "RUSSELL",
+    "SP500_micro",
+    "US-FINANCE",
     "US-INDUSTRY",
     "US-MATERIAL",
-    "US-REALESTATE",
-    "US-STAPLES",
-    "US-TECH",
-    "US10",
-    "US30",
-    "VIX",
-    "WHEAT",
-    "ZAR",
-    "ZINC_LME",
-    "BUXL",
+    "SMI",
+    "SWISSLEAD",
+    "EUROSTX-SMALL",
+    "AEX_mini",
     "DAX",
-    "DX",
-    "SUGAR11",
+    "EUROSTX",
+    "EURIBOR",
+    "SONIA3",
+    "WHEAT",
     "V2X",
-    "SPI200",
-    "RUBBER"
+    "BUXL"
   ],
   "window": {
     "fetch_start": "2024-06-01",
@@ -142,7 +169,7 @@
     "BTP": {
       "symbol": "BTP",
       "exchange": "EUREX",
-      "currency": "nan",
+      "currency": "EUR",
       "multiplier": "1000.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -150,7 +177,7 @@
     "BUND": {
       "symbol": "GBL",
       "exchange": "EUREX",
-      "currency": "nan",
+      "currency": "EUR",
       "multiplier": "1000.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -198,7 +225,7 @@
     "CORN": {
       "symbol": "ZC",
       "exchange": "CBOT",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "5000.0",
       "price_magnifier": 100.0,
       "ignore_weekly": false
@@ -318,7 +345,7 @@
     "EUROSTX": {
       "symbol": "ESTX50",
       "exchange": "EUREX",
-      "currency": "nan",
+      "currency": "EUR",
       "multiplier": "10.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -446,7 +473,7 @@
     "JPY": {
       "symbol": "JPY",
       "exchange": "CME",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "12500000.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -454,7 +481,7 @@
     "LEANHOG": {
       "symbol": "HE",
       "exchange": "CME",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "40000.0",
       "price_magnifier": 100.0,
       "ignore_weekly": false
@@ -462,7 +489,7 @@
     "LIVECOW": {
       "symbol": "LE",
       "exchange": "CME",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "40000.0",
       "price_magnifier": 100.0,
       "ignore_weekly": false
@@ -478,7 +505,7 @@
     "MXP": {
       "symbol": "6M",
       "exchange": "CME",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "500000.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -502,7 +529,7 @@
     "NZD": {
       "symbol": "NZD",
       "exchange": "CME",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "100000.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -518,7 +545,7 @@
     "PALLAD": {
       "symbol": "PA",
       "exchange": "NYMEX",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "100.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -526,7 +553,7 @@
     "PLAT": {
       "symbol": "PL",
       "exchange": "NYMEX",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "50.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -582,7 +609,7 @@
     "SMI": {
       "symbol": "SMI",
       "exchange": "EUREX",
-      "currency": "nan",
+      "currency": "CHF",
       "multiplier": "10.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -590,7 +617,7 @@
     "SOYBEAN": {
       "symbol": "ZS",
       "exchange": "CBOT",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "5000.0",
       "price_magnifier": 100.0,
       "ignore_weekly": false
@@ -694,7 +721,7 @@
     "US10": {
       "symbol": "ZN",
       "exchange": "CBOT",
-      "currency": "nan",
+      "currency": "USD",
       "multiplier": "1000.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
@@ -715,14 +742,6 @@
       "price_magnifier": 1.0,
       "ignore_weekly": true
     },
-    "WHEAT": {
-      "symbol": "ZW",
-      "exchange": "CBOT",
-      "currency": "nan",
-      "multiplier": "5000.0",
-      "price_magnifier": 100.0,
-      "ignore_weekly": false
-    },
     "ZAR": {
       "symbol": "ZAR",
       "exchange": "CME",
@@ -738,14 +757,6 @@
       "multiplier": "25.0",
       "price_magnifier": 1.0,
       "ignore_weekly": true
-    },
-    "BUXL": {
-      "symbol": "GBX",
-      "exchange": "EUREX",
-      "currency": "EUR",
-      "multiplier": "1000.0",
-      "price_magnifier": 1.0,
-      "ignore_weekly": false
     },
     "DAX": {
       "symbol": "DAX",
@@ -771,14 +782,6 @@
       "price_magnifier": 100.0,
       "ignore_weekly": false
     },
-    "V2X": {
-      "symbol": "V2TX",
-      "exchange": "EUREX",
-      "currency": null,
-      "multiplier": "100.0",
-      "price_magnifier": 1.0,
-      "ignore_weekly": false
-    },
     "SPI200": {
       "symbol": "SPI",
       "exchange": "SNFE",
@@ -792,6 +795,246 @@
       "exchange": "SGX",
       "currency": null,
       "multiplier": "50.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "BOBL": {
+      "symbol": "GBM",
+      "exchange": "EUREX",
+      "currency": "EUR",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "BTP3": {
+      "symbol": "BTS",
+      "exchange": "EUREX",
+      "currency": "EUR",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "CAD10": {
+      "symbol": "CGB",
+      "exchange": "CDE",
+      "currency": "CAD",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "CAD2": {
+      "symbol": "CGZ",
+      "exchange": "CDE",
+      "currency": "CAD",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "CAD5": {
+      "symbol": "CGF",
+      "exchange": "CDE",
+      "currency": "CAD",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "CADJPY": {
+      "symbol": "CJY",
+      "exchange": "CME",
+      "currency": "JPY",
+      "multiplier": "200000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "CH10": {
+      "symbol": "CONF",
+      "exchange": "EUREX",
+      "currency": "CHF",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "COAL-GEORDIE": {
+      "symbol": "NCF",
+      "exchange": "IPE",
+      "currency": "USD",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "CZK": {
+      "symbol": "CZK",
+      "exchange": "CME",
+      "currency": "USD",
+      "multiplier": "4000000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "EU-DJ-OIL": {
+      "symbol": "ESE",
+      "exchange": "EUREX",
+      "currency": "EUR",
+      "multiplier": "50.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "EURCHF": {
+      "symbol": "RF",
+      "exchange": "CME",
+      "currency": "CHF",
+      "multiplier": "125000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "FED": {
+      "symbol": "ZQ",
+      "exchange": "CBOT",
+      "currency": "USD",
+      "multiplier": "4167.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "GAS-LAST": {
+      "symbol": "HH",
+      "exchange": "NYMEX",
+      "currency": "USD",
+      "multiplier": "10000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "GAS-PEN": {
+      "symbol": "HP",
+      "exchange": "NYMEX",
+      "currency": "USD",
+      "multiplier": "10000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "GBPEUR": {
+      "symbol": "RP",
+      "exchange": "CME",
+      "currency": "GBP",
+      "multiplier": "125000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "HIGHYIELD": {
+      "symbol": "IBXXIBHY",
+      "exchange": "CFE",
+      "currency": "USD",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "INR": {
+      "symbol": "SIR",
+      "exchange": "CME",
+      "currency": "USD",
+      "multiplier": "5000000.0",
+      "price_magnifier": 10000.0,
+      "ignore_weekly": false
+    },
+    "JGB-SGX-mini": {
+      "symbol": "SGB",
+      "exchange": "SGX",
+      "currency": "JPY",
+      "multiplier": "100000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "SHATZ": {
+      "symbol": "GBS",
+      "exchange": "EUREX",
+      "currency": "EUR",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "SWISSLEAD": {
+      "symbol": "SLI",
+      "exchange": "EUREX",
+      "currency": "CHF",
+      "multiplier": "10.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "US-PROPERTY": {
+      "symbol": "SIXRE",
+      "exchange": "CME",
+      "currency": "USD",
+      "multiplier": "250.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "US2": {
+      "symbol": "ZT",
+      "exchange": "CBOT",
+      "currency": "USD",
+      "multiplier": "2000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "US3": {
+      "symbol": "Z3N",
+      "exchange": "CBOT",
+      "currency": "USD",
+      "multiplier": "2000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "US5": {
+      "symbol": "ZF",
+      "exchange": "CBOT",
+      "currency": "USD",
+      "multiplier": "1000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "YENEUR": {
+      "symbol": "RY",
+      "exchange": "CME",
+      "currency": "JPY",
+      "multiplier": "125000.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "EURIBOR": {
+      "symbol": "EU3",
+      "exchange": "EUREX",
+      "currency": "EUR",
+      "multiplier": "2500.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "SONIA3": {
+      "symbol": "SONIA.N",
+      "exchange": "ICEEU",
+      "currency": "GBP",
+      "multiplier": "2500.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "WHEAT": {
+      "symbol": "ZW",
+      "exchange": "CBOT",
+      "currency": "USD",
+      "multiplier": "5000.0",
+      "price_magnifier": 100.0,
+      "ignore_weekly": false
+    },
+    "V2X": {
+      "symbol": "V2TX",
+      "exchange": "EUREX",
+      "currency": null,
+      "multiplier": "100.0",
+      "price_magnifier": 1.0,
+      "ignore_weekly": false
+    },
+    "BUXL": {
+      "symbol": "GBX",
+      "exchange": "EUREX",
+      "currency": "EUR",
+      "multiplier": "1000.0",
       "price_magnifier": 1.0,
       "ignore_weekly": false
     }
