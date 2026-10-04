@@ -1,26 +1,6 @@
-asset_classes:
-  Other:
-  - CORN
-  Rates:
-  - SOFR
-  - US10
-  Risky:
-  - EUROSTX
-  - V2X
-  - MXP
 base_currency: USD
-countries:
-  Europe:
-  - EUROSTX
-  - V2X
-  Other:
-  - MXP
-  - CORN
-  US:
-  - SOFR
-  - US10
 forecast_cap: 20.0
-forecast_div_multiplier: 1.31
+forecast_div_multiplier: 1.85
 forecast_post_ceiling_cost_SR: 0.1
 forecast_weights:
   assettrend16: 0.029411764705882353
@@ -289,26 +269,7 @@ instruments:
 - EUROSTX
 notional_trading_capital: 500000
 percentage_vol_target: 25.0
-rule_groups:
-  carry:
-  - carry
-  ewmac_fast:
-  - ewmac2_8
-  - ewmac4_16
-  ewmac_medium:
-  - ewmac8_32
-  - ewmac16_64
-  ewmac_slow:
-  - ewmac32_128
-  - ewmac64_256
 start_date: '2018-01-01'
-style_groups:
-  carry:
-  - carry
-  trend:
-  - ewmac_fast
-  - ewmac_medium
-  - ewmac_slow
 trading_rules:
   accel16:
     data:
