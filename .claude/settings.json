@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk '{print $2,\"cpu_time=\"$10}')",
+      "Bash(nohup pst-env/bin/python3 -u production/live/run_backtest.py 750000 1000000)",
+      "Bash(pst-env/bin/python3 /tmp/diag.py)",
+      "Bash(pst-env/bin/python3 -c ' *)",
+      "Bash(pst-env/bin/python3 /tmp/diag2.py)",
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('production/live/artifacts/append_report.json'\\)\\);print\\(json.dumps\\({k:d[k] for k in list\\(d\\)[:6]},indent=2\\)[:1500]\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import json;c=json.load\\(open\\('production/live/config.json'\\)\\);ins=c.get\\('instruments'\\) or c.get\\('universe'\\) or [];print\\('keys:',list\\(c\\)[:12]\\);print\\('n instruments:',len\\(ins\\) if isinstance\\(ins,list\\) else ins\\)\")",
+      "Bash(/Users/kunal.taneja/pysystemtrade/pst-env/bin/python3 /tmp/claudeperms.py)",
+      "Bash(python3 /tmp/claudeperms.py)",
+      "Bash(timeout 1200 pst-env/bin/python3 production/live/run_backtest.py 750000)",
+      "Bash(pst-env/bin/python3 production/live/run_backtest.py 750000)",
+      "Bash(DQ_STORE=production/live/data/curated_rolladjusted DQ_MIN_END=2026-04-01 pst-env/bin/python3 production/live/04_data_quality_gate.py)",
+      "Bash(pst-env/bin/python3 production/live/run_backtest.py 750000 1000000)",
+      "Bash(pst-env/bin/python3 -m sysproduction.update_sampled_contracts)",
+      "Edit(/.claude/skills/reseed-stale-instrument/**)",
+      "Bash(nohup bash -c 'echo \"EURIBOR\" | pst-env/bin/python3 -m sysinit.futures.seed_price_data_from_IB > /tmp/seed_euribor.log 2>&1')",
+      "Bash(awk -F: '$1 < 356')",
+      "Bash(pst-env/bin/python3 -c \"import json;print\\(json.load\\(open\\('production/research/config.json'\\)\\).get\\('window'\\)\\)\")",
+      "Bash(pgrep -f \"topo_inline\\\\|python3 -$\")",
+      "Bash(nohup pst-env/bin/python3 /tmp/refreeze.py)",
+      "Bash(nohup pst-env/bin/python3 /tmp/attribution.py)",
+      "Bash(git commit -q -m 'Productionise: YAML config + rob-dynamic shim; retire custom data pipeline; deep clean *)",
+      "Bash(git push *)"
+    ]
+  }
+}
